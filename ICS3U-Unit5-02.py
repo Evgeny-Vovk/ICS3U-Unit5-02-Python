@@ -20,7 +20,9 @@ def main():
         base_as_float = float(base)
         height_as_float = float(height)
         if base_as_float <= 0 or height_as_float <= 0:
-            print("A triangle cannot have a height or a base with a value that's equal or less than 0.")
+            print(
+                "A triangle cannot have a height or a base with a value that's equal or less than 0."
+            )
         else:
             area_of_triangle(base_as_float, height_as_float)
 
